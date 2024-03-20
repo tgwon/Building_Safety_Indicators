@@ -1,9 +1,9 @@
-# Building_Safety_Indicators
+> # Building_Safety_Indicators
 화재 피해 예측을 통한 건물별 화재 위험성 지표 개발
 <br/>
 <br/>
 
-## ✍ 요약
+> ## ✍ 요약
 - 건물 단위의 데이터 수집 및 전처리
 - 회귀 모델을 통해 인명피해 여부와 재산피해액을 예측하여 건물별 화재 위험성 지표 개발
 - Socket 프로그래밍과 Pyspark를 통해 실시간 처리 시스템 구현
