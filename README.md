@@ -1,16 +1,23 @@
 # Building_Safety_Indicators
-Development of risk indicators through building safety data mining and analysis
-
+화재 피해 예측을 통한 건물별 화재 위험성 지표 개발
+<br/>
+<br/>
 
 ## ✍ 요약
-- 본 연구는 건물 화재에 대한 화재 피해(인명피해, 재산피해)를 예측하는 모델을 개발하여 화재 위험성 지표(화재피해등급)를 산출하고자 한다.
-- 해당 지표를 활용해 건물 화재 위험도를 실시간으로 분석하고 선제적인 대응전략을 수립하여 화재 발생에 의한 피해를 최소화 할 수 있을 것으로 기대한다.
+- 건물 단위의 데이터 수집 및 전처리
+- 회귀 모델을 통해 인명피해 여부와 재산피해액을 예측하여 건물별 화재 위험성 지표 개발
+- Socket 프로그래밍과 Pyspark를 통해 실시간 처리 시스템 구현
+- Tableau를 통해 지표 시각화 대시보드 구현
+<br/>
 
-##
-<img src="https://github.com/tgwon/Building_Safety_Indicators/assets/102985590/2d3c5845-223a-467c-9236-1fca465f3c5d"  width="760" height="430">
+<img src="https://github.com/tgwon/Building_Safety_Indicators/assets/102985590/9a5d8f36-53e9-46b1-8f32-6ae899ed683f"  width="780" height="430">
+<br/>
+<br/>
 
-## 🏆 최종결과
+> ## 📊 결과
+
+### <최종 결과>
+- 제3회 소방안전 빅데이터 활용 및 아이디어 경진대회 활용사례 부문 **최우수상**
 - 인명피해 예측 정확도 93.9%
 - 재산 피해액 예측 R-squared 0.784, MAE 2.062
 - ML Prediction 정확도 90.1%
-- 제3회 소방안전 빅데이터 활용 및 아이디어 경진대회 최우수상(활용사례 부문)
